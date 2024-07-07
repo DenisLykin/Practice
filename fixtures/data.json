@@ -1,0 +1,88 @@
+[
+  {
+    "model": "myapp.street",
+    "pk": 1,
+    "fields": {
+      "name": "Lenin",
+      "city": 1
+    }
+  },
+  {
+    "model": "myapp.street",
+    "pk": 2,
+    "fields": {
+      "name": "Aurora",
+      "city": 2
+    }
+  },
+  {
+    "model": "myapp.street",
+    "pk": 3,
+    "fields": {
+      "name": "Gagarin",
+      "city": 1
+    }
+  },
+  {
+    "model": "myapp.city",
+    "pk": 1,
+    "fields": {
+      "name": "Tolyatti"
+    }
+  },
+  {
+    "model": "myapp.city",
+    "pk": 2,
+    "fields": {
+      "name": "Samara"
+    }
+  },
+  {
+    "model": "myapp.shop",
+    "pk": 1,
+    "fields": {
+      "name": "Magnit",
+      "city": 1,
+      "street": 1,
+      "house": 12,
+      "open_time": "10:00:00",
+      "close_time": "23:00:00"
+    }
+  },
+  {
+    "model": "myapp.shop",
+    "pk": 2,
+    "fields": {
+      "name": "Pelican",
+      "city": 1,
+      "street": 3,
+      "house": 4,
+      "open_time": "08:00:00",
+      "close_time": "22:00:00"
+    }
+  },
+  {
+    "model": "myapp.shop",
+    "pk": 3,
+    "fields": {
+      "name": "Pyaterochka",
+      "city": 2,
+      "street": 2,
+      "house": 20,
+      "open_time": "08:00:00",
+      "close_time": "20:00:00"
+    }
+  },
+  {
+    "model": "myapp.shop",
+    "pk": 4,
+    "fields": {
+      "name": "Products",
+      "city": 1,
+      "street": 1,
+      "house": 45,
+      "open_time": "08:00:00",
+      "close_time": "16:00:00"
+    }
+  }
+]
